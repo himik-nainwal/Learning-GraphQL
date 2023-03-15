@@ -1,0 +1,25 @@
+{
+  "name": "learning-graphql",
+  "version": "1.0.0",
+  "description": "For my practice only",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himik-nainwal/Learning-GraphQL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/himik-nainwal/Learning-GraphQL/issues"
+  },
+  "homepage": "https://github.com/himik-nainwal/Learning-GraphQL#readme",
+  "dependencies": {
+    "apollo-server": "^3.12.0",
+    "apollo-server-core": "^3.12.0",
+    "nodemon": "^2.0.21"
+  }
+}
