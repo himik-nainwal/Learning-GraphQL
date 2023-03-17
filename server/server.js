@@ -1,9 +1,12 @@
 import {ApolloServer,gql} from 'apollo-server'
 import {ApolloServerPluginLandingPageGraphQLPlayground} from 'apollo-server-core'
-
+import {users , quotes} from "./dummyDB";
 const typeDefs = gql`
    type Query{
-       greet:String
+       users:[User]
+   }
+   type User {
+    id:ID
    }
 `;
 
